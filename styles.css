@@ -1,7 +1,10 @@
-body {
-    background-color: aquamarine;
+.box {
+    background-color: blueviolet;
+    height: 100px;
+    margin: 100px;
+    width: 100px;
 }
 
-div {
-background-attachment: fixed;
+.box-wrapping {
+    display: flex;
 }
