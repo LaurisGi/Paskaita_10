@@ -1,10 +1,17 @@
+body {
+    background-color: aqua;
+}
+
 .box {
     background-color: blueviolet;
     height: 100px;
     margin: 100px;
     width: 100px;
+    text-align: center;
 }
 
-.box-wrapping {
+.boxes-wrapper {
     display: flex;
+    flex-direction: inherit;
+    flex-wrap: wrap;
 }
